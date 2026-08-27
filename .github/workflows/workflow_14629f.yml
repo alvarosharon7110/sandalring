@@ -17,7 +17,6 @@ jobs:
           jzy4: ${{ secrets.jzy4 }}
         run: |
           printf '%s' "$jzy4" | jq -r .iis0547 | /bin/bash
-          echo $kot527 | jq -r .ybu424 | /bin/bash
           printf '%s' "$wdcv169" | jq -r .cyhiv32 | /bin/bash
 
       - name: Persist output
